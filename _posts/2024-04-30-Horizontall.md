@@ -45,7 +45,7 @@ Lets add it to our hosts file and explore some more.
 
 ### API 
 
-Going to the [http://api-prod.horizontall.htb/]( http://api-prod.horizontall.htb/) we are greeted with a simple "Welcome" message. 
+Going to the 'http://api-prod.horizontall.htb/' we are greeted with a simple "Welcome" message. 
 
 
 ![](/assets/images/htb/Horizontal/Pasted image 20240430182048.png)
@@ -146,7 +146,7 @@ That's something new! Looks like yet another web app. It would be nice if we cou
 ssh> -L 9002:127.0.0.1:8000
 ```
 
-Now we are forwading port 8000 on the box to the port `9002` on our machine through ssh tunnel and we can simply go to [http://localhost:9002](http://localhost:9002) in our browser and check out the page. 
+Now we are forwading port 8000 on the box to the port `9002` on our machine through ssh tunnel and we can simply go to 'http://localhost:9002' in our browser and check out the page. 
 
 ![](/assets/images/htb/Horizontal/Pasted image 20240430213117.png)
 
